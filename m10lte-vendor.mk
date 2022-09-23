@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m10lte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l2.bin \
     vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_5e9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9.bin \
-    vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_5e9_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9_front.bin
+    vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_5e9_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9_front.bin \
     vendor/samsung/m10lte/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/m10lte/proprietary/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so \
     vendor/samsung/m10lte/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
