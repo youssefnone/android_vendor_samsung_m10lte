@@ -1,0 +1,27 @@
+PRODUCT_COPY_FILES += \
+    vendor/samsung/m10lte/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
+    vendor/samsung/m10lte/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/samsung/m10lte/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_36:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_36 \
+    vendor/samsung/m10lte/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
+    vendor/samsung/m10lte/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_36:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_36 \
+    vendor/samsung/m10lte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_36:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_36 \
+    vendor/samsung/m10lte/proprietary/vendor/etc/wifi/nvram.txt_36:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_36 \
+    vendor/samsung/m10lte/proprietary/vendor/firmware/bcm43436B0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm43436B0.hcd \
+    vendor/samsung/m10lte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
+    vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l2.bin \
+    vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_5e9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9.bin \
+    vendor/samsung/m10lte/proprietary/vendor/firmware/setfile_5e9_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9_front.bin
+    vendor/samsung/m10lte/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
+
+# TFA-Audio
+PRODUCT_COPY_FILES += \
+    vendor/samsung/m10lte/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
+    vendor/samsung/m10lte/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
+    vendor/samsung/m10lte/proprietary/vendor/lib/hw/audio.primary.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.universal7870.so 
+
